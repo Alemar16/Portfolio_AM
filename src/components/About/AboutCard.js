@@ -15,28 +15,28 @@ function AboutCard() {
             interactive and appealing experiences for users, combining my
             ability to write efficient code with an eye for visual design.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Additionally, I am currently employed as a Teaching Assistant at
+            Henry.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> I enjoy reading
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> I play baseball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> I enjoy Traveling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Armando M</footer>
         </blockquote>
       </Card.Body>
     </Card>
