@@ -8,10 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Hi Everyone, I am <span className="purple">Armando Martínez </span>
+            from <span className="purple"> Córdoba, Argentina</span>
+            <br /> I consider myself a passionate full stack developer with a
+            special focus on frontend and web design. I love creating
+            interactive and appealing experiences for users, combining my
+            ability to write efficient code with an eye for visual design.
             <br />
             Additionally, I am currently employed as a software developer at
             Juspay.
