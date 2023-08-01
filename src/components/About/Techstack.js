@@ -9,6 +9,8 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiHtml5,
+  DiCss3
 } from "react-icons/di";
 import {
   SiRedis,
@@ -16,6 +18,15 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiChakraui,
+  SiRedux,
+  SiMysql,
+  SiExpress,
+  SiSequelize,
+  SiFigma,
+  SiAdobephotoshop,
+  SiJest,
+  SiVercel
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -23,13 +34,13 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,13 +49,11 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiChakraui />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -53,16 +62,31 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSequelize />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJest />
       </Col>
     </Row>
   );
