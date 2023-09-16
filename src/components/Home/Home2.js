@@ -75,7 +75,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/armando-martínez-zambrano"
+                  href="https://www.linkedin.com/in/armando-mart%C3%ADnez-zambrano"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
