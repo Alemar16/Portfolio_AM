@@ -2,9 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import imagen_proyect3 from "../../Assets/Projects/Captura_Rick.jpeg";
 import imagen_proyect1 from "../../Assets/Projects/Captura_Home.png";
 import imagen_proyect2 from "../../Assets/Projects/Captura_Tasty.png";
+import imagen_proyect3 from "../../Assets/Projects/Captura_Rick.jpeg";
+import imagen_proyect4 from "../../Assets/Projects/nodeJS-app.jpeg";
 
 function Projects() {
   return (
@@ -48,6 +49,16 @@ function Projects() {
               description="As an integrated project, to fulfill the requirements of module 2 of the bootcamp, it was necessary to create an application using the Rick and Morty API. This was applied utilizing all relevant topics"
               ghLink="https://github.com/Alemar16/Henry-M2_integration_APP"
               demoLink="https://henry-m2-integration-app.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={imagen_proyect4}
+              isBlog={false}
+              title="NodeJS Project"
+              description="The NodeJS-App project is an educational website built in NodeJS using Express. Technologies used include Express, Morgan, Ejs, SendGrid, Bootstrap, Toastify, and Render. Express simplifies web development, Morgan logs HTTP requests and responses, Ejs generates dynamic views, SendGrid is used for sending emails, Bootstrap provides styling and design, Toastify enhances the user experience, and Render is used for page deployment. A detailed step-by-step guide can be found on our Notion page, describing the creation of this NodeJS-App website."
+              ghLink="https://github.com/Alemar16/NodeJS-App"
+              demoLink="https://nodejs-app-nv68.onrender.com"
             />
           </Col>
         </Row>
